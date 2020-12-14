@@ -1,0 +1,98 @@
+<head th:fragment="head">
+<title>eCommerce App</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous" />
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+<style>
+html, body, main {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+/* 	justify-content: space-between;  */
+}
+
+div {
+  padding-top: 5px;
+  padding-bottom: 5px; 
+ }
+
+div1 {
+  padding-top: 20px;
+/*   padding-bottom: 20px; */ 
+  padding-left: 50px;
+  padding-right: 50px;
+ }
+
+.jumbotron{
+background-color: #F0D8C0;
+}
+
+.large-product-card .card-body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background: green;
+	/*            justify-content: center;	*/
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+}
+/* Clearfix (clear floats) */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.loc1 {
+	position: absolute;
+	top: 60px;
+	left: 16px;
+	color: white;
+}
+
+.loc2 {
+	position: absolute;
+	top: 60px;
+	left: 600px;
+	/*transform: translate(-50%, -50%);*/
+	color: white;
+}
+
+.loc3 {
+	position: absolute;
+	top: 60px;
+	right: 130px;
+	color: white;
+}
+
+.button1 {
+	position: absolute;
+ 	bottom: 150px; 
+	left:190px;
+}
+ .button2 {
+	position: absolute;
+ 	bottom: 150px; 
+	left: 700px;
+}
+.button3 {
+	position: absolute;
+ 	bottom: 150px; 	
+	left: 1200px;
+} 
+</style>
+</head>
